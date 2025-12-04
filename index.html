@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fquiz_5692030&psig=AOvVaw0lr1-Q1jyQWwmdCvCgZRcq&ust=1749056144595000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDX8trg1Y0DFQAAAAAdAAAAABAE">
+</head>
+<body>
+    <div id="container">
+        <div id="quiz-container">
+            <p id="question"></p>
+            <div id="options-container"></div>
+            <div id="next-btn-container">
+            <button id="next-btn">Next question ➡️</button>
+        </div>
+    </div>
+        <button id="start-btn" onclick="startQuiz()">START QUIZ</button>
+        <div id="quiz-completed">
+            <img src="https://i.pinimg.com/originals/ab/fe/ab/abfeab76f814ff17ff411cc653a9e33e.gif">
+            <p>Thank you for attempting the quiz 🎉</p>
+            <p>Your final score:</p>
+            <p id="final-score">2/3</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
